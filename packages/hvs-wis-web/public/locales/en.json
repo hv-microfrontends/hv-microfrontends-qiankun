@@ -1,0 +1,23 @@
+{
+  "pages": {
+    "configuration": {
+      "incident": {
+        "title": "Incident Configuration"
+      }
+    },
+    "management": {
+      "incidentType": {
+        "title": "Incident Management"
+      },
+      "sop": {
+        "title": "SOP Management"
+      },
+      "workflow": {
+        "title": "Workflow Management"
+      }
+    },
+    "notFound": {
+      "title": "Not Found"
+    }
+  }
+}
