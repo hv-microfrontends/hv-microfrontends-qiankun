@@ -25,6 +25,15 @@ registerMicroApps([
       basename: "/settings",
     },
   },
+  {
+    name: "hvs-web",
+    entry: "//localhost:3002",
+    container: "#sub-app",
+    activeRule: "/map",
+    props: {
+      basename: "/map",
+    },
+  },
 ]);
 
 // Start sub micro apps
