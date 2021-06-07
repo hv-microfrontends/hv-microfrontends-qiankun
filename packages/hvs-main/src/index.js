@@ -21,6 +21,9 @@ registerMicroApps([
     entry: "//localhost:3001",
     container: "#sub-app",
     activeRule: "/settings",
+    props: {
+      basename: "/settings",
+    },
   },
 ]);
 

@@ -6,7 +6,7 @@ import Container from "components/layout/Container";
 import navigation from "lib/navigation";
 
 const App = props => (
-  <BrowserRouter basename={window.__POWERED_BY_QIANKUN__ ? "/settings" : "/"}>
+  <BrowserRouter basename={props?.basename || "/"}>
     <ThemeProvider>
       <NavigationProvider navigation={navigation}>
         <Container {...props} />
